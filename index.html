@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Education</title>
+    <link rel="shortcut icon" href="./images/newlogo.png" type="image/x-icon">
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./StaffLanding page.css" />
+    <link rel="stylesheet" href="./loader.css" />
+    <link rel="stylesheet" href="./swalOnly.css" />
+    <head>
+      <!-- Include SweetAlert2 CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+      <!-- Include SweetAlert2 JS -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+  </head>
+  
+   
+</head>
+<body>
+    <div id="main_container" style="display:none;"></div> 
+    <!--page wrapper start-->
+    <div class="page-wrapper">
+        <!--header start-->
+    <div class="smallscreen">
+        <img src="images/schoologo.png" class="logonsmallscreen" >
+       <p id="titleSmallscreen"> Premium Education</p> 
+    </div>
+                <div class="navbar">
+                    <img src="./images/newlogo.png" class="logo">
+                    <p class="title">Premium Education</p>
+                    
+                <nav>
+
+                  
+
+                    <!-- <div class="visme_d" data-title="Connect with Us" data-url="x4v6jk3q-connect-with-us?fullPage=true" data-domain="forms" data-full-page="true" data-min-height="100vh" data-form-id="53411"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
+                    
+                    <ul class="nav-menu">
+                      
+                       
+                     
+                        <li><a href="./1.StudentsBiodata/Grade 3/Grade 3students.html"class="link4" target="_blank"> <i class="fab fa-instagram" id="fab1" ></i> Students</a></li>
+                        <li><a href="./Admissions/index.html"class="link4" target="_blank"> <i class="fas fa-school" id="fab1" ></i> Admissions</a></li>
+                        <li><a href="../School Exams Bank/ExamsResultsBank..html"class="link4" target="_blank"> <i class="fas fa-book" id="fab1"></i> Academics</a></li>
+                        <li><a href="../Designs/Digital Contents.html"class="link2"target="_blank"> <i class="fas fa-home" id="fab1"></i> Designs</a></li>
+                        <li><a href="https://kec.ac.ke/"class="link3" target="_blank"> <i class="fas fa-moon" id="fab1"></i> E-learn</a></li>
+                        <li><a href="https://admins-portal-24568.web.app/"class="link5" target="_blank"> <i class="fas fa-user" id="fab1"></i> Admins</a></li>
+              
+                            <button onclick="mainApp.logout();">logout</button>
+
+                        </ul>
+
+                        
+                </nav>
+            </div>
+            <div class="container">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+              <a href="./2.ToLandingPage/index.html"></a>
+         
+       
+            <div class="loading">
+                <svg viewBox="25 25 50 50">
+                    <circle r="20" cy="50" cx="50"></circle>
+                  </svg>
+                </div>
+
+
+              <div id="top">
+         <!--home section starts-->
+         <section class="home" id="home"></section>
+         <div class="container" >
+            <div class="grid">
+                <div class="home-text">
+                  <h2 >Premium Education Resources</h2> <br>
+          <p>
+            
+                        Welcome to Premium Education Resources KE! 🎓📚 We are your trusted source for top-quality educational materials and innovative learning solutions. Whether you're a student, teacher, or institution, we're here to support your journey with advanced tools and resources. Stay connected for the latest updates, tips, and resources designed to help you succeed!</p>
+                    
+                   <div class="btn-wrap">
+                    <a href="#about" class="btn">know more</a>
+                   </div>
+                </div>
+                <div class="home-img">
+                    <div class="circle-wrap">
+                       <div class="circle">
+                    
+                       </div> 
+                    </div>
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="./images/schoolpic1.jpg" alt="">
+                        </div>
+        
+               </div>
+              
+                
+            </div>
+            
+
+         </div>
+        
+         <!--home section end-->
+
+           <!--about section start-->
+           <section class="about section-padding">
+            <div class="container">
+                <div class="grid">
+                  <div class="about-img">
+                    <div class="img-box">
+                        <img src="images/schoolpic2.jpg" alt="">
+                        <div class="box box-1">
+                            <span style="color:white;font-weight: bold; font-size: 18px; margin: 0; line-height: 1; background-color: transparent;"> 53 Years <br>
+                            Since Establishement</p>
+                     </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="about-text">
+                    <div class="section-title">
+                        <span class="title">about us</span>
+                        <h2 class="sub-title">we've been here since 1970</h2>
+                    </div>
+                    <p>
+                        Founded in 1970, Kanyadet Comprehensive School is a beacon of educational excellence.
+                         Our institution is dedicated to cultivating intellectual curiosity, critical thinking, and social responsibility in every student.
+                          With a dynamic curriculum and passionate faculty, we provide a nurturing environment where students thrive academically and personally.
+                           Welcome to a place where knowledge flourishes and minds expand.
+                           Established in 1970, Kanyadet Comprehensive School has been a trailblazer in education, fostering a culture of excellence and innovation. 
+                           With a legacy of empowering students to reach new heights, our dedicated faculty and vibrant community inspire a passion for learning that knows no bounds. 
+                           Join us as we continue to shape the future of education, where every student's potential is realized and every aspiration is achieved. 
+                           Welcome to Kanyadet Comprehensive School, where greatness begins.
+                    </p>
+                    
+                  </div>  
+                </div>
+            </div>
+           </section>
+            <!--about section end-->
+
+            <!--services section start -->
+             <section class="services section-padding" id="services">
+                <div class="container">
+                    <div class="section-title">
+                        <span class="title">Teaching  Staff</span>
+                        <h2 class="sub-title"></h2>
+                    </div>
+                    <div class="grid">
+                         <!-- services item start-->
+                           <div class="services-item">
+                            <h6 class="Numbering">1</h6>
+                            <div class="img-box">
+                                <img src="images/anode.png" alt="brain">
+                            </div>
+                            <h3>Md everlyne Panyako</h3>
+                            <span>Principal</span>
+                           </div>
+                         <!-- services item end-->
+                         <!-- services item start-->
+                           <div class="services-item">
+                            <h6 class="Numbering">2</h6>
+                            <div class="img-box">
+                                <img src="images/obure-removebg-preview (2).png" alt="brain">
+                            </div>
+                            <h3>Mr Fredrick Ghana</h3>
+                            <span>Acting Dp</span>
+                          
+                           </div>
+                         <!-- services item end-->
+
+                          <!-- services item start-->
+                          <div class="services-item">
+                            <h6 class="Numbering">3</h6>
+                            <div class="img-box">
+                                <img src="images/Mr OWUOR.png" alt="brain">
+                            </div>
+                            <h3>Mr  Jerry Wycliff Owuor</h3>
+                            <span>H.O.D Examinations</span>
+                          
+                           </div>
+                           <!-- services item end-->
+
+                          <!-- services item start-->
+                          <div class="services-item">
+                            <h6 class="Numbering">4</h6>
+                            <div class="img-box">
+                                <img src="images/Owino.png" alt="brain">
+                            </div>
+                            <h3>Mr Wycliff Owino</h3>
+                        <span>H.O.D I.C.T </span>
+                      
+                           </div>
+                         <!-- services item end-->
+                         
+                            
+                               <!-- services item start-->
+                           <div class="services-item">
+                            <h6 class="Numbering">5</h6>
+                            <div class="img-box">
+                                <img src="images/lichuma.jpg" alt="brain">
+                            </div>
+                            <h3>Mr Vincent Olubwayo</h3>
+                            <span>H.O.D Sciences</span>
+                          
+                           </div>
+                         <!-- services item end--> 
+
+                        
+                             <!-- services item start-->
+                             <div class="services-item">
+                                <h6 class="Numbering">6</h6>
+                                <div class="img-box">
+                                    <img src="images/mrokumu.png" alt="brain">
+                                </div>
+                                <h3> <b class="new">The Late</b> Mr Edwin Okumu</h3>
+                           
+                          
+                               </div>
+                             <!-- services item end-->
+                             <!-- services item start-->
+                             <div class="services-item">
+                                 <h6 class="Numbering">7</h6>
+                                 <div class="img-box">
+                                     <img src="images/schoologo.png" alt="brain">
+                                    </div>
+                                    <h3>Md Janet</h3>
+                                    <span>H.O.D English</span>
+                                </div>
+                                <!-- services item start-->
+                            <div class="services-item">
+                             <h6 class="Numbering">8</h6>
+                             <div class="img-box">
+                                 <img src="images/schoologo.png" alt="brain">
+                             </div>
+                             <h3>Md Ogonda Eunice Atieno</h3>
+                             <span>Asst H.O.D English</span>
+                            </div>
+                          <!-- services item end--> 
+                         <!-- services item end--> 
+                               <!-- services item start-->
+                           <div class="services-item">
+                            <h6 class="Numbering">9</h6>
+                            <div class="img-box">
+                                <img src="images/mroduoremove.png" alt="brain">
+                            </div>
+                            <h3>Mr Oduor geofrey</h3>
+                            <span>I.C.T Dept</span>
+                           </div>
+                         <!-- services item end--> 
+                          
+                                 <!-- services item start-->
+                                 <div class="services-item">
+                                    <h6 class="Numbering">10</h6>
+                                    <div class="img-box">
+                                        <img src="images/schoologo.png" alt="Mrs Beryl">
+                                    </div>
+                                    <h3>Mr Vincent Olubwayo</h3>
+                                    <span>H.O.D Sciences</span>
+                                  
+                                   </div>
+                                 <!-- services item end--> 
+                        
+                               <!-- services item start-->
+                           <div class="services-item">
+                            <h6 class="Numbering">11</h6>
+                            <div class="img-box">
+                                <img src="images/mrmangla.png" alt="brain">
+                            </div>
+                            <h3>Mr Maxwel Mangla</h3>
+                            <span>B.0.M</span>
+                           </div>
+                         <!-- services item end--> 
+                             
+                             
+                         
+                               
+                        
+                    </div>
+                </div>
+             </section>
+            <!--services section end -->
+
+            <!--pricing section start-->
+<section class="pricing section-padding" id="pricing">
+    <div class="container">
+        <div class="section-title">
+            <span class="title">External</span>
+            <h2 class="sub-title">Communications</h2>
+        </div>
+        <div class="grid">
+            <!-- basic plan start--> 
+            <div class="pricing-item">
+                <div class="pricing-header">
+                 <h3>Internal Assessments Feedback</h3>
+                    <div class="price">🏛️ <br>The Year 2024</div>
+                </div>
+                <div class="pricing-body">
+                    
+                  
+                    <ul>
+                    
+                           </a><li><i class="fas fa-user"></i> <a href="#" target="_blank" >Grade Six Mid Term I Performance Reports is currently out</li></a>
+
+                 
+
+ 
+     
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+            <!-- basic plan end--> 
+              
+            <!-- standard plan start--> 
+            <div class="pricing-item">
+                <div class="pricing-header">
+                    <h3>National Assessments Feedback</h3>
+                    <div class="price">👨‍👩‍👧‍👦 <br>welcome to parent Care Services</div>
+                </div>
+                <div class="pricing-body">
+                    <ul>
+                        <li><i class="fas fa-calendar"></i>registration for KPSEA examination Curently ongoing you are hereby reminded to comply before the deadline</li>
+
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+            <!--  standard  plan end--> 
+             
+
+             <!-- premium plan start--> 
+             <div class="pricing-item">
+                <div class="pricing-header">
+                    <h3>National Examinations Related Communications</h3>
+                    <div class="price">🎒 <br> Trending</div>
+                </div>
+                <div class="pricing-body">
+                    <ul>
+                        <li><i class="fas fa-cancel"></i>🧑‍⚕️registration for KPSEA examination Curently ongoing you are hereby reminded to comply before the deadline</li>
+
+
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+            <!-- premium plan end--> 
+        </div>
+    </div>
+</section>
+            <!--pricing section end-->
+
+             <!-- team section start-->
+             <section class="team section-padding" id="team">
+                <div class="container">
+                 <div class="section-title">
+                    <span class="title">Our partners</span>
+                    <h2 class="sub-title">we are a community of people</h2>
+                 </div>  
+                 <div class="grid">
+                      <!-- team item start-->
+                       <div class="team-item">
+                        <div class="img-box">
+                           <a href="https://www.tsc.go.ke/"> <img src="images/TSC.png" alt=""></a>
+                        </div>
+                        <div class="detail">
+                          <h3>TSC</h3>
+                          <p>Teachers service commission</p>  
+                        </div>
+                       </div>
+                    <!-- team item end-->
+                    <!-- team item start-->
+                    <div class="team-item">
+                        <div class="img-box">
+                            <a href="https://www.knec-portal.ac.ke/"><img src="images/knec.png" alt=""></a>
+                        </div>
+                        <div class="detail">
+                          <h3>KNEC</h3> 
+                          <p>kenya national Examination council</p> 
+                        </div>
+                       </div>
+                    <!-- team item end-->
+                    <!-- team item start-->
+                    <div class="team-item">
+                        <div class="img-box">
+                            <a href="https://kicd.ac.ke/"><img src="images/kicd.png" alt=""></a>
+                        </div>
+                        <div class="detail">
+                          <h3>MOE</h3> 
+                          <p>Kenya Institute Of Curriculum Development</p> 
+                        </div>
+                       </div>
+                    <!-- team item end-->
+                   
+
+                 </div> 
+                </div>
+             </section>
+             <!-- team section end  -->
+             <!-- contact section start -->
+              <section class="contact section-padding" id="contact">
+               <div class="container">
+                <div class="section-title">
+                    <span class="title">contact us</span>
+                    <h2 class="sub-title">have any question</h2>
+                </div>
+                <div class="grid contact-grid">
+                <div class="contact-info">
+                <div class="contact-info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p class="contacts">P.O Box 45 - 40139, Akala, Kenya</p>
+                  </div>
+                  <div class="contact-info-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call us</h3>
+                    <a href="tel:+25479977321" class="contacts">+25479977321</a>
+                  </div>
+                  <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email us</h3>
+                    <a href="mailto:kanyadetprischool@gmail.com" class="contacts" id="schoolemail">kanyadetprischool@gmail.com</a>
+                  </div>
+                </div>
+                 <div class="contact-form"> 
+                    <form name="submit-to-google-sheet" class="form">
+                    <div class="input-box">
+                        <input type="text" placeholder="Name" class="input-control" >
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" class="input-control" >
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="phone" class="input-control" >
+                    </div>
+                    <div class="input-box">
+                        <textarea placeholder="message" class="input-control" ></textarea>
+                        <div class="btn-wrap"><br>
+                        <button type="submit" class="btn">send message </button>
+                        </div>
+                    </div>
+                 </form>
+                </div>
+                </div>
+              </section>
+            <!-- contact section end -->
+            <!-- footer start -->
+            <footer class="footer">
+                <div class="container">
+                    <h3>Follow us</h3>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/kanyadetprischool/?_rdc=1&_rdr"title="facebook"> <i class="fab fa-facebook"></i></a>
+                        <a href="#"title="whatsapp"> <i class="fab fa-whatsapp"></i></a>
+                        <a href="#"title="twitter"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"title="instagram"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"title="youtube"> <i class="fab fa-youtube"></i></a>
+                    </div>
+
+                </div>
+            </footer>
+             <!-- footer end-->
+    </div>
+    </div>
+    
+</div>
+<script src="GoogleAuthfireBase.js"></script>
+<script src="GoogleAuthmain.js"></script>
+       <script src="./fireBase.js"></script>
+       <script src="./main.js"></script>
+     <script src="./loader.js"></script>
+     <script src="./MainPopups.js"></script>
+     <script src="./contact Submssion.js"></script>
+     <script src="./Genre Popup.js"></script>
+     <!-- <script src="./Logout remind.js"></script> -->
+       <!--style switcher end-->
+       <script>
+        let isFormDirty = false; // Flag to determine if there are unsaved changes
+    
+        // Example function to simulate form changes
+        function simulateFormChange() {
+            isFormDirty = true;
+        }
+    
+        // Function to handle the beforeunload event
+        function handleBeforeUnload(event) {
+            if (!isFormDirty) return;
+    
+            event.preventDefault(); // Required for most browsers
+            event.returnValue = ''; // Required for most browsers
+            return ''; // Required for some older browsers
+        }
+    
+        // Function to show the SweetAlert2 confirmation dialog
+        function showConfirmationDialog() {
+            return Swal.fire({
+                title: 'Unsaved Changes',
+                text: 'You have unsaved changes. Are you sure you want to leave?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, leave',
+                cancelButtonText: 'No, stay'
+            });
+        }
+    
+        // Attach the event listener for beforeunload
+        window.addEventListener('beforeunload', handleBeforeUnload);
+    
+        // Add a custom handler for clicks or form submissions that might navigate away
+        document.addEventListener('click', function (event) {
+            if (isFormDirty) {
+                event.preventDefault();
+                showConfirmationDialog().then((result) => {
+                    if (result.isConfirmed) {
+                        // Navigate away or submit the form programmatically
+                        window.location.href = event.target.href || '#';
+                    }
+                });
+            }
+        });
+    
+        // You can also listen for form submissions if necessary
+        document.addEventListener('submit', function (event) {
+            if (isFormDirty) {
+                event.preventDefault();
+                showConfirmationDialog().then((result) => {
+                    if (result.isConfirmed) {
+                        // Proceed with form submission
+                        event.target.submit();
+                    }
+                });
+            }
+        });
+    </script>
+    
+        <!-- Brevo Conversations {literal} -->
+<script>
+  (function(d, w, c) {
+      w.BrevoConversationsID = '66dd181827b177f481075967';
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      var s = d.createElement('script');
+      s.async = true;
+      s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+          
+
+
+
+<!-- 
+       <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+       <script>
+         /* paste this in verbatim */
+         window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
+         formbutton("create", {
+           action: "https://formspree.io/f/xknlbjyb",
+           theme: "minimal",
+           onResponse: function(ok, setStatus) {
+             if (ok) {
+               setStatus("Thanks!");
+               setTimeout(function() {
+                 formbutton("showForm", false)
+               }, 1000);
+             } else {
+               try {
+                 setStatus(response.data.error);
+               } catch {
+                 setStatus("Oops, there was an error!");
+               }
+             }
+           },
+           styles: {
+      button: {
+        right: "-15px", // half button width
+        bottom:"120px",
+        width:"50px",
+        height:"9vh",
+        backgroundColor:"gray",
+        border: "4px solid lavender",
+
+      },
+    
+    },
+           initiallyVisible: true
+         });
+       </script>
+
+
+
+ -->
+
+
+
+
+<!-- 
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/YOUR_FORM_ID",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      button: {
+        right: "-30px", // half button width
+        margin: "20px 50%",
+      },
+    },
+    initiallyVisible: true
+  });
+</script> -->
+
+       <div class="backtoTop">    <a href="#top"title="facebook"> <i class="fa fa-arrow-up" aria-hidden="true"></i> </a></div>
+       <div class="LeftMessageicon">    <a href="sms:0769106047 ?body=Congratulations You've reached Developer Inbox.How may I help you?🧑‍⚕️!"title="Developer"> <i class="fa fa-envelope" aria-hidden="true"></i> </a></div>
+     <p class="rights">All rights reserved ©️ 2024 | Developer Mr Oduor| Naturing Every learners Potential</p>
+    </div>
+</body> 

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "premium-education-resources-ke",
+    "hosting": "premium-education-resources-ke"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
