@@ -158,13 +158,23 @@ background-image: url(./img/Background.png);
 }
 .submitt{
   text-decoration: none;
-  color: #f1f8fc;
+  /* color: #0e605d;  */
   padding-left: 60px;
   text-align: center;
   border: transparent;
   padding: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(-45deg,   #060b3b 0%,  #060b3b 100%);
+  color: rgb(91, 80, 16); 
+  background-image: linear-gradient(-45deg,   #dddde4 0%,  #faf9fa 100%);
+  -webkit-box-shadow: -3px -3px 5px lavender, 3px 3px 5px lavender;
+          box-shadow: -3px -3px 5px lavender, 3px 3px 5px rgba(209, 209, 209, 0.705);
+
+
+}
+.submitt:active{
+  scale: 0.8;
+  color: #0e605d; 
+
 }
 .sendingOrbutton .btn{
  
@@ -410,7 +420,7 @@ textarea::placeholder{
   margin: 2px 0;
   cursor: pointer;
   transition: 0.5s;
-  border: 7px solid  rgb(4, 255, 251);
+  border: 6px solid  rgb(88, 255, 255);
   transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
   -webkit-animation: sunshines 2s infinite;
   animation: sunshines 2s linear;
@@ -465,7 +475,8 @@ video{
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg,  #060b3b 0%,   #060b3b 100%);
+  background-image: linear-gradient(-45deg,  #060b3b 0%,   #060b3b 100%); 
+  
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
