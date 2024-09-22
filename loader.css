@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+    backdrop-filter: blur(40px);
     z-index: 9999; /* Ensure the loader is above other content */
   }
   

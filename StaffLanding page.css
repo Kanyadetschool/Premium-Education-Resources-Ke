@@ -14,8 +14,7 @@
     --text-light-gray: hsl(218, 84%, 19%);
     --text-x-dark-gray: hsl(0, 0%, 10%);
     --text-dark-gray:hsl(0 0% 20%);
-    /* --main-color: hsl(200, 70%, 55%); */
-    /* --main-color: hsl(218, 84%, 19%); */
+    --main-color: hsl(218, 84%, 19%); 
     -my-color: hsl(20, 70%, 55%);
 
    /* bg colors*/
@@ -476,6 +475,7 @@ p{
 img{
     max-width: 100%;
     vertical-align: middle;
+    
  
 }
 ::selection{
@@ -941,7 +941,7 @@ margin-left: 10px;
 
 .home-img img{
     width: 100%;
-    /* max-width: 300px; */
+    max-width: 300px; 
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -973,6 +973,9 @@ margin-left: 10px;
 .about-img .img-box img{
     border-radius: 29px;
  
+}
+#lion1{
+    display: none;
 }
 .about-img .box{
     height: 125px;
@@ -1279,6 +1282,12 @@ grid-column: span 4;
         font-size: 1.5rem;
       
       }
+      #lion2{
+        display: none;
+    }
+    #lion1{
+        display: block;
+    }
     .logonsmallscreen{
         width: 50px;
         position: absolute;
